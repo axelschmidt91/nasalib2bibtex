@@ -2,3 +2,4 @@ data.bib
 data.json
 .ideas/*
 __pycache__/*
+*.log
