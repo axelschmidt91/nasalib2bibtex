@@ -1,0 +1,35 @@
+[
+    {
+        "author": "authorAffiliations:meta:author:name + authorAffiliations:meta:organization:name + authorAffiliations:meta:organization:location",
+        "title": "title",
+        "year": "publications:publicationDate.year",
+        "type": "technicalReviewType",
+        "organization": "organization"
+    },
+    [
+        "address",
+        "annote",
+        "author",
+        "booktitle",
+        "chapter",
+        "crossref",
+        "edition",
+        "editor",
+        "howpublished",
+        "institution",
+        "journal",
+        "key",
+        "month",
+        "note",
+        "number",
+        "organization",
+        "pages",
+        "publisher",
+        "school",
+        "series",
+        "title",
+        "type",
+        "volume",
+        "year"
+    ]
+]
