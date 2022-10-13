@@ -188,7 +188,7 @@ def write_results(results):
     with open(output_filename, 'w') as outfile:
         for result in results:
             # print ID and title of the result
-            log.debug(str(result['id']) + ": " + result['title'])
+            log.debug("ID: " + str(result['id']) + " - Title: " + result['title'])
 
             # the bibtex type is the stiType of the result if it is in stiTypes_assigned
             if result['stiType'] in stiTypes_assigned:
@@ -283,7 +283,6 @@ def main(query):
     results = get_results(query)
 
     # write the results to a bibtec file
-    log.info("Writing results to file")
     write_results(results)
 
 if __name__ == "__main__":
@@ -314,6 +313,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
 
     if args.verbose:
+        log.info("Verbose mode on")
         log.setLevel(logging.DEBUG)
 
     log.info("Starting nasalib2bib")
