@@ -1,0 +1,1851 @@
+{
+    "THESIS_DISSERTATION": {
+        "_meta": {
+            "score": 205.51154
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "COMPOSITE MATERIALS"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "2019-06-24T00:00:00.0000000+00:00",
+        "otherReportNumbers": [
+            "NAS 1.15:101634",
+            "AD-A233515",
+            "AVSCOM-TR-89-B-003",
+            "NASA-TM-101634"
+        ],
+        "fundingNumbers": [
+            {
+                "number": "RTOP 505-63-01-06",
+                "type": "PROJECT"
+            }
+        ],
+        "title": "Energy-absorption capability of composite tubes and beams",
+        "stiType": "THESIS_DISSERTATION",
+        "distribution": "PUBLIC",
+        "submittedDate": "2013-09-06T00:18:00.0000000+00:00",
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 19890020120,
+                "meta": {
+                    "author": {
+                        "name": "Farley, Gary L."
+                    },
+                    "organization": {
+                        "name": "Argonne National Lab.",
+                        "location": "IL., United States"
+                    }
+                },
+                "id": "a5489c837b0e440593542b0f8897992a"
+            },
+            {
+                "sequence": 1,
+                "submissionId": 19890020120,
+                "meta": {
+                    "author": {
+                        "name": "Jones, Robert M."
+                    },
+                    "organization": {
+                        "name": "Virginia Polytechnic Inst. and State Univ.",
+                        "location": "Blacksburg., United States"
+                    }
+                },
+                "id": "fbf176a4a3414e258025527b4b867935"
+            }
+        ],
+        "stiTypeDetails": "Thesis/Dissertation",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "modified": "2013-08-29T00:00:00.0000000+00:00",
+        "id": 19890020120,
+        "created": "2013-09-06T00:18:00.0000000+00:00",
+        "center": {
+            "code": "CDMS",
+            "name": "Legacy CDMS",
+            "id": "092d6e0881874968859b972d39a888dc"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "In this study the objective was to develop a method of predicting the energy-absorption capability of composite subfloor beam structures. Before it is possible to develop such an analysis capability, an in-depth understanding of the crushing process of composite materials must be achieved. Many variables affect the crushing process of composite structures, such as the constituent materials' mechanical properties, specimen geometry, and crushing speed. A comprehensive experimental evaluation of tube specimens was conducted to develop insight into how composite structural elements crush and what are the controlling mechanisms. In this study the four characteristic crushing modes, transverse shearing, brittle fracturing, lamina bending, and local buckling were identified and the mechanisms that control the crushing process defined. An in-depth understanding was developed of how material properties affect energy-absorption capability. For example, an increase in fiber and matrix stiffness and failure strain can, depending upon the configuration of the tube, increase energy-absorption capability. An analysis to predict the energy-absorption capability of composite tube specimens was developed and verified. Good agreement between experiment and prediction was obtained.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "publications": [
+            {
+                "submissionId": 19890020120,
+                "id": "31241508335f4c7eb2dcf7cab330648a",
+                "publicationDate": "1989-09-01T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "19890020120.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/19890020120/downloads/19890020120.pdf",
+                    "pdf": "/api/citations/19890020120/downloads/19890020120.pdf",
+                    "fulltext": "/api/citations/19890020120/downloads/19890020120.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "CONFERENCE_PROCEEDINGS": {
+        "_meta": {
+            "score": 83.75339
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "containsIndication": false,
+            "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "Aircraft Design, Testing and Performance"
+        ],
+        "keywords": [
+            "Drag",
+            "Propulsion",
+            "Vibration",
+            "Stress and load",
+            "Rotor",
+            "Flutter",
+            "Helicopter"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "1996-02-13T05:00:00.0000000+00:00",
+        "fundingNumbers": [],
+        "title": "NACA Conference on Helicopters: A Compilation of the Papers Presented",
+        "stiType": "CONFERENCE_PROCEEDINGS",
+        "distribution": "PUBLIC",
+        "submittedDate": "2013-08-01T14:42:00.0000000+00:00",
+        "authorAffiliations": [
+            {
+                "organizationId": "431c06806dc44b47afa7ff85d7b71ae1",
+                "sequence": 0,
+                "submissionId": 19630008110,
+                "meta": {
+                    "author": {
+                        "name": "Laurence K Loftin, Jr."
+                    },
+                    "organization": {
+                        "name": "Langley Memorial Aeronautical Laboratory",
+                        "location": "Langley Field, Virginia, United States"
+                    }
+                },
+                "id": "71a8233b2e944b6ea1f6bef0c2e2e7bf",
+                "userType": "OTHER"
+            }
+        ],
+        "stiTypeDetails": "Conference Proceedings",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "modified": "2022-01-28T20:35:29.5375120+00:00",
+        "id": 19630008110,
+        "sourceIdentifiers": [],
+        "created": "2013-08-01T14:42:00.0000000+00:00",
+        "center": {
+            "code": "LaRC",
+            "name": "Langley Research Center",
+            "id": "1e229fe5b7284965a153b0f761643383"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "This document contains reproductions of technical papers presented at the NACA Conference on Helicopters held at the Langley Aeronautical Laboratory May 12 and 13, 1954. The primary purpose of this conference was to convey to the military services, their contractors, and others concerned with the design of helicopters the results of NACA research on helicopters and to provide those attending an opportunity to discuss\nthe results. The papers in this document are in the same form in which they were presented at the conference in order to facilitate their prompt distribution. The original presentation and this record are considered as complementary to, rather than as substitutes for, the Committee's more\ncomplete and formal reports . A list of the conferees is included.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "cui": {},
+        "meetings": [
+            {
+                "country": "US",
+                "submissionId": 19630008110,
+                "endDate": "1954-05-13T04:00:00.0000000+00:00",
+                "sponsors": [
+                    {
+                        "organizationId": "9a414edaa7fd40e6857ced745efb5e6c",
+                        "meta": {
+                            "organization": {
+                                "name": "National Advisory Committee for Aeronautics",
+                                "location": "Washington D.C., District of Columbia, United States"
+                            }
+                        },
+                        "meetingId": "d4c8d54301e844bb9b46b01ba2edf948",
+                        "id": "4457e35efcbc49edb59802583594fac3"
+                    }
+                ],
+                "name": "NACA Conference on Helicopters",
+                "location": "Langley Field, VA",
+                "id": "d4c8d54301e844bb9b46b01ba2edf948",
+                "startDate": "1954-05-12T04:00:00.0000000+00:00"
+            }
+        ],
+        "publications": [
+            {
+                "submissionId": 19630008110,
+                "publisher": "National Advisory Committee for Aeronautics",
+                "id": "66af18f958c849ca9a539c0d7db0f228",
+                "publicationName": "NACA Conference on Helicopters: A Compilation of the Papers Presented",
+                "publicationDate": "1954-05-12T04:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930088340,
+                "type": "SEE_ALSO",
+                "title": "Aspects of Internal-Flow-System Design for Helicopter Propulsive Units",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            },
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930084218,
+                "type": "SEE_ALSO",
+                "title": "Reduction of Helicopter Parasite Drag",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            },
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930083912,
+                "type": "SEE_ALSO",
+                "title": "Some Aspects of the Helicopter Noise Problem",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            },
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930090308,
+                "type": "SEE_ALSO",
+                "title": "Methods of Predicting Helicopter Stability",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            },
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930090309,
+                "type": "SEE_ALSO",
+                "title": "Methods for Obtaining Desired Helicopter Stability Characteristics",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            },
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930090502,
+                "type": "SEE_ALSO",
+                "title": "Rapid Estimation of Bending Frequencies of Rotating Beams",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            },
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930083920,
+                "type": "SEE_ALSO",
+                "title": "Airfoil Section Characteristics at High Angles of Attack",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            },
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930083909,
+                "type": "SEE_ALSO",
+                "title": "Review of Information on Induced Flow of a Lifting Rotor",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            },
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930083901,
+                "type": "SEE_ALSO",
+                "title": "Hovering Performance of a Helicopter Rotor Using NACA 8-H-12 Airfoil Sections",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            },
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19930083899,
+                "type": "SEE_ALSO",
+                "title": "Wind-Tunnel Studies of the Performance of Multirotor Configurations",
+                "stiType": "OTHER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            }
+        ],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "19630008110.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/19630008110/downloads/19630008110.pdf",
+                    "pdf": "/api/citations/19630008110/downloads/19630008110.pdf",
+                    "fulltext": "/api/citations/19630008110/downloads/19630008110.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "SPECIAL_PUBLICATION": {
+        "_meta": {
+            "score": 31.105265
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "LASERS AND MASERS"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "created": "2013-09-03T11:24:00.0000000+00:00",
+        "distributionDate": "2019-08-26T18:48:10.5830000+00:00",
+        "otherReportNumbers": [
+            "NASA-SP-5973(03)"
+        ],
+        "center": {
+            "code": "CDMS",
+            "name": "Legacy CDMS",
+            "id": "092d6e0881874968859b972d39a888dc"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "A number of innovative devices and techniques in optics and related fields were presented. The following areas were covered:  advances in laser and holography technology, articles on spectroscopy and general optics, new information in the area of photography.",
+        "title": "Optics and lasers:  A compilation",
+        "stiType": "SPECIAL_PUBLICATION",
+        "distribution": "PUBLIC",
+        "submittedDate": "2013-09-03T11:24:00.0000000+00:00",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "stiTypeDetails": "Special Publication (SP)",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "modified": "2013-08-29T00:00:00.0000000+00:00",
+        "id": 19760013377,
+        "publications": [
+            {
+                "submissionId": 19760013377,
+                "id": "a9660918a7fb4942bb5f1cc11f83c677",
+                "publicationDate": "1976-01-01T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "19760013377.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/19760013377/downloads/19760013377.pdf",
+                    "pdf": "/api/citations/19760013377/downloads/19760013377.pdf",
+                    "fulltext": "/api/citations/19760013377/downloads/19760013377.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "TECHNICAL_MEMORANDUM": {
+        "_meta": {
+            "score": 348.4335
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "Structural Mechanics",
+            "Composite Materials"
+        ],
+        "keywords": [
+            "Impact",
+            "Finite Element Method",
+            "Polymer Matrix Composites"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+        "otherReportNumbers": [
+            "E-19123",
+            "NASA/TM-2015-218849",
+            "GRC-E-DAA-TN24915"
+        ],
+        "fundingNumbers": [
+            {
+                "number": "FAA 12-G-001",
+                "type": "CONTRACT_GRANT"
+            },
+            {
+                "number": "WBS 826611.04.03.01",
+                "type": "WBS"
+            }
+        ],
+        "title": "Incorporation of Plasticity and Damage Into an Orthotropic Three-Dimensional Model with Tabulated Input Suitable for Use in Composite Impact Problems",
+        "stiType": "TECHNICAL_MEMORANDUM",
+        "distribution": "PUBLIC",
+        "submittedDate": "2015-10-14T15:17:23.6630000+00:00",
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 20150019390,
+                "meta": {
+                    "author": {
+                        "name": "Goldberg, Robert K."
+                    },
+                    "organization": {
+                        "name": "NASA Glenn Research Center",
+                        "location": "Cleveland, OH United States"
+                    }
+                },
+                "id": "066752e634e9436880d854378fd01cee"
+            },
+            {
+                "sequence": 1,
+                "submissionId": 20150019390,
+                "meta": {
+                    "author": {
+                        "name": "Carney, Kelly S."
+                    },
+                    "organization": {
+                        "name": "NASA Glenn Research Center",
+                        "location": "Cleveland, OH United States"
+                    }
+                },
+                "id": "62b1537cc59d4bcf8047db6133555c19"
+            },
+            {
+                "sequence": 2,
+                "submissionId": 20150019390,
+                "meta": {
+                    "author": {
+                        "name": "DuBois, Paul"
+                    },
+                    "organization": {
+                        "name": "George Mason Univ.",
+                        "location": "Fairfax, VA, United States"
+                    }
+                },
+                "id": "0f6850c1c75348198190fa6cf1367976"
+            },
+            {
+                "sequence": 3,
+                "submissionId": 20150019390,
+                "meta": {
+                    "author": {
+                        "name": "Hoffarth, Canio"
+                    },
+                    "organization": {
+                        "name": "Arizona State Univ.",
+                        "location": "Tempe, AZ, United States"
+                    }
+                },
+                "id": "308afb5ad5754be98593e63c59e4a5e9"
+            },
+            {
+                "sequence": 4,
+                "submissionId": 20150019390,
+                "meta": {
+                    "author": {
+                        "name": "Rajan, Subramaniam"
+                    },
+                    "organization": {
+                        "name": "Arizona State Univ.",
+                        "location": "Tempe, AZ, United States"
+                    }
+                },
+                "id": "151f6a19513f4eff9d393fdf95f02956"
+            },
+            {
+                "sequence": 5,
+                "submissionId": 20150019390,
+                "meta": {
+                    "author": {
+                        "name": "Blackenhorn, Gunther"
+                    },
+                    "organization": {
+                        "name": "Livermore Software Technology Corp.",
+                        "location": "CA, United States"
+                    }
+                },
+                "id": "34b628999117454180e808ae846d583c"
+            }
+        ],
+        "stiTypeDetails": "Technical Memorandum (TM)",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "id": 20150019390,
+        "created": "2015-10-14T15:17:23.6630000+00:00",
+        "center": {
+            "code": "GRC",
+            "name": "Glenn Research Center",
+            "id": "19eeb25fa404421d9eaa5f876e853e3c"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "The need for accurate material models to simulate the deformation, damage and failure of polymer matrix composites under impact conditions is becoming critical as these materials are gaining increased usage in the aerospace and automotive industries. While there are several composite material models currently available within commercial transient dynamic finite element codes, several features have been identified as being lacking in the currently available material models that could substantially enhance the predictive capability of the impact simulations. A specific desired feature pertains to the incorporation of both plasticity and damage within the material model. Another desired feature relates to using experimentally based tabulated stress-strain input to define the evolution of plasticity and damage as opposed to specifying discrete input properties (such as modulus and strength) and employing analytical functions to track the response of the material. To begin to address these needs, a combined plasticity and damage model suitable for use with both solid and shell elements is being developed for implementation within the commercial code LS-DYNA. The plasticity model is based on extending the Tsai-Wu composite failure model into a strain-hardening based orthotropic plasticity model with a non-associative flow rule. The evolution of the yield surface is determined based on tabulated stress-strain curves in the various normal and shear directions and is tracked using the effective plastic strain. The effective plastic strain is computed by using the non-associative flow rule in combination with appropriate numerical methods. To compute the evolution of damage, a strain equivalent semi-coupled formulation is used, in which a load in one direction results in a stiffness reduction in multiple coordinate directions. A specific laminated composite is examined to demonstrate the process of characterizing and analyzing the response of a composite using the developed model.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "meetings": [
+            {
+                "country": "United States",
+                "submissionId": 20150019390,
+                "endDate": "2015-09-30T00:00:00.0000000+00:00",
+                "sponsors": [
+                    {
+                        "meta": {
+                            "organization": {
+                                "name": "American Society for Composites",
+                                "location": "Dayton, OH, United States"
+                            }
+                        },
+                        "meetingId": "8e6ae22264cb46e9bca2e58401e23ca4",
+                        "id": "6cf47b0990a743f7a0a46071596befda"
+                    }
+                ],
+                "name": "American Society for Composites Annual Technical Conference",
+                "location": "East Lansing, MI",
+                "id": "8e6ae22264cb46e9bca2e58401e23ca4",
+                "startDate": "2015-09-28T00:00:00.0000000+00:00"
+            }
+        ],
+        "publications": [
+            {
+                "submissionId": 20150019390,
+                "id": "b3b564541da84467bfef0089217b7fba",
+                "publicationDate": "2015-08-01T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 20150022116,
+                "type": "SEE_ALSO",
+                "title": "Incorporation of Plasticity and Damage Into an Orthotropic Three-Dimensional Model with Tabulated Input Suitable for Use in Composite Impact Problems",
+                "stiType": "CONFERENCE_PAPER",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            }
+        ],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "20150019390.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/20150019390/downloads/20150019390.pdf",
+                    "pdf": "/api/citations/20150019390/downloads/20150019390.pdf",
+                    "fulltext": "/api/citations/20150019390/downloads/20150019390.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "TECHNICAL_PUBLICATION": {
+        "_meta": {
+            "score": 243.6363
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "COMPOSITE MATERIALS"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "2019-06-24T00:00:00.0000000+00:00",
+        "otherReportNumbers": [
+            "L-15942",
+            "AVSCOM-TR-85-B-1",
+            "NAS 1.60:2441",
+            "NASA-TP-2441"
+        ],
+        "fundingNumbers": [
+            {
+                "number": "DA PROJ. 1L1-61102-H-4503",
+                "type": "PROJECT"
+            },
+            {
+                "number": "RTOP 505-42-23-03",
+                "type": "PROJECT"
+            }
+        ],
+        "title": "Effect of low-velocity or ballistic impact damage on the strength of thin composite and aluminum shear panels",
+        "stiType": "TECHNICAL_PUBLICATION",
+        "distribution": "PUBLIC",
+        "submittedDate": "2013-09-05T13:57:00.0000000+00:00",
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 19850018613,
+                "meta": {
+                    "author": {
+                        "name": "Farley, G. L."
+                    },
+                    "organization": {
+                        "name": "Army Research and Technology Lab.",
+                        "location": "Hampton, Va., United States"
+                    }
+                },
+                "id": "4632675c9e574cd5b73da2bee1ad5f0f"
+            }
+        ],
+        "stiTypeDetails": "Technical Publication (TP)",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "modified": "2013-08-29T00:00:00.0000000+00:00",
+        "id": 19850018613,
+        "created": "2013-09-05T13:57:00.0000000+00:00",
+        "center": {
+            "code": "CDMS",
+            "name": "Legacy CDMS",
+            "id": "092d6e0881874968859b972d39a888dc"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "Impact tests were conducted on shear panels fabricated from 6061-T6 aluminum and from woven fabric prepreg of Du Pont Kevlara fiber/epoxy resin and graphite fiber/epoxy resin. The shear panels consisted of three different composite laminates and one aluminum material configuration. Three panel aspect ratios were evaluated for each material configuration. Composite panels were impacted with a 1.27-cm (0.05-in) diameter aluminum sphere at low velocities of 46 m/sec (150 ft/sec) and 67 m/sec (220 ft/sec). Ballistic impact conditions consisted of a tumbled 0.50-caliber projectile impacting loaded composite and aluminum shear panels. The results of these tests indicate that ballistic threshold load (the lowest load which will result in immediate failure upon penetration by the projectile) varied between 0.44 and 0.61 of the average failure load of undamaged panels. The residual strengths of the panels after ballistic impact varied between 0.55 and 0.75 of the average failure strength of the undamaged panels. The low velocity impacts at 67 m/sec (220 ft/sec) caused a 15 to 20 percent reduction in strength, whereas the impacts at 46 m/sec (150 ft/sec) resulted in negligible strength loss. Good agreement was obtained between the experimental failure strengths and the predicted strength with the point stress failure criterion.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "publications": [
+            {
+                "submissionId": 19850018613,
+                "id": "84d7af7b2ea84951ab62e2d0be1524e8",
+                "publicationDate": "1985-05-01T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "19850018613.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/19850018613/downloads/19850018613.pdf",
+                    "pdf": "/api/citations/19850018613/downloads/19850018613.pdf",
+                    "fulltext": "/api/citations/19850018613/downloads/19850018613.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "ACCEPTED_MANUSCRIPT": {
+        "_meta": {
+            "score": 118.189
+        },
+        "copyright": {
+            "disclosedInvention": false,
+            "licenseType": "NO",
+            "containsThirdPartyMaterial": false,
+            "containsIndication": false,
+            "determinationType": "PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "Structural Mechanics"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "2018-04-02T04:00:00.0000000+00:00",
+        "otherReportNumbers": [
+            "NF1676L-26530"
+        ],
+        "fundingNumbers": [
+            {
+                "number": "826611.04.07.01",
+                "type": "WBS"
+            },
+            {
+                "number": "ARMD_826611",
+                "type": "PROJECT"
+            }
+        ],
+        "title": "Computationally Efficient Beam Elements for Accurate Stresses in Sandwich Laminates and Laminated Composites with Delaminations",
+        "stiType": "ACCEPTED_MANUSCRIPT",
+        "distribution": "PUBLIC",
+        "submittedDate": "2019-06-07T07:58:12.8230000+00:00",
+        "authorAffiliations": [
+            {
+                "organizationId": "8a278761db30576e9dd1226034cc8cc0",
+                "sequence": 0,
+                "submissionId": 20190025746,
+                "meta": {
+                    "author": {
+                        "name": "R. M. J. Groh"
+                    },
+                    "organization": {
+                        "name": "University of Bristol",
+                        "location": "Bristol, United Kingdom"
+                    }
+                },
+                "id": "25a6dcfcd74e4d2587833e5e17c6e226",
+                "userType": "OTHER"
+            },
+            {
+                "organizationId": "68603dff261e5d2d9de5a550aa9e6b30",
+                "sequence": 1,
+                "submissionId": 20190025746,
+                "meta": {
+                    "author": {
+                        "orcidId": "",
+                        "name": "A Tessler"
+                    },
+                    "organization": {
+                        "name": "Langley Research Center",
+                        "location": "Hampton, Virginia, United States"
+                    }
+                },
+                "id": "b426989703a1431ba5e1aefa580d0fbd",
+                "userType": "OTHER",
+                "userId": "918f7a355f6948519e1147160858a728"
+            }
+        ],
+        "stiTypeDetails": "Accepted Manuscript (Version with final changes)",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "modified": "2021-08-19T19:15:33.0212290+00:00",
+        "id": 20190025746,
+        "sourceIdentifiers": [
+            {
+                "number": "doi:10.1016/j.cma.2017.03.035",
+                "type": "DOI"
+            }
+        ],
+        "created": "2019-06-07T07:58:12.8230000+00:00",
+        "center": {
+            "code": "LaRC",
+            "name": "Langley Research Center",
+            "id": "1e229fe5b7284965a153b0f761643383"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "Laminated composites are prone to delamination failure due to the lack of reinforcement through the thickness. Therefore, during the design process the initiation and propagation of delaminations should be accounted for as early as possible. This paper presents computationally efficient nine degree-of-freedom (dof) and eight-dof shear locking-free beam elements using the mixed form of the refined zigzag theory (RZT(sup(m))). The corresponding nine-dof and eight-dof elements use the anisoparametric and constrained anisoparametric interpolation schemes, respectively, to eliminate shear locking in slender beams. The advantage of the present element over previous RZT beam elements is that no post-processing is required to accurately model the transverse shear stress while maintaining the computational efficiency of a low-order beam element. Comparisons with high-fidelity finite element models and three-dimensional elasticity solutions show that the elements can robustly and accurately predict the displacement field, axial stress and transverse shear stress through the thickness of a sandwich beam or a composite laminate with an embedded delamination. In fact, the accuracy and computational efficiency of predicting stresses in laminates with embedded delaminations make the present elements attractive choices for RZT-based delamination initiation and propagation methodologies available in the literature.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "publications": [
+            {
+                "volume": "320",
+                "submissionId": 20190025746,
+                "issn": "0045-7825",
+                "publisher": "Elsevier",
+                "eissn": "1879-2138",
+                "id": "fec654a6eb164da99c010ecdc304b10f",
+                "publicationName": "Computer Methods in Applied Mechanics and Engineering",
+                "publicationDate": "2017-04-01T04:00:00.0000000+00:00",
+                "issuePublicationDate": "2017-06-15T04:00:00.0000000+00:00",
+                "doi": "doi: 10.1016/j.cma.2017.03.035"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "20190025746.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/20190025746/downloads/20190025746.pdf",
+                    "pdf": "/api/citations/20190025746/downloads/20190025746.pdf",
+                    "fulltext": "/api/citations/20190025746/downloads/20190025746.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "CONTRACTOR_OR_GRANTEE_REPORT": {
+        "_meta": {
+            "score": 131.12701
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "Composite Materials"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+        "fundingNumbers": [
+            {
+                "number": "N00014-99-0445",
+                "type": "CONTRACT_GRANT"
+            },
+            {
+                "number": "NAG1-1956",
+                "type": "CONTRACT_GRANT"
+            }
+        ],
+        "title": "Approaches to Design and Evaluation of Sandwich Composites",
+        "stiType": "CONTRACTOR_OR_GRANTEE_REPORT",
+        "distribution": "PUBLIC",
+        "submittedDate": "2013-09-07T12:25:00.0000000+00:00",
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 20010021111,
+                "meta": {
+                    "author": {
+                        "name": "Shivakumar, Kunigal"
+                    },
+                    "organization": {
+                        "name": "North Carolina Agricultural and Technical State Univ.",
+                        "location": "Greensboro, NC United States"
+                    }
+                },
+                "id": "b1193a46bcfe410cafa19b9697029da6"
+            },
+            {
+                "sequence": 1,
+                "submissionId": 20010021111,
+                "meta": {
+                    "author": {
+                        "name": "Raju, I. S."
+                    },
+                    "organization": {}
+                },
+                "id": "5846d20692aa493f942c613dc7ad545f"
+            },
+            {
+                "sequence": 2,
+                "submissionId": 20010021111,
+                "meta": {
+                    "author": {
+                        "name": "Ambur, D."
+                    },
+                    "organization": {}
+                },
+                "id": "dc07dd5132f044ad9efed6f9ffdc7680"
+            }
+        ],
+        "stiTypeDetails": "Contractor or Grantee Report",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "modified": "2013-08-29T00:00:00.0000000+00:00",
+        "id": 20010021111,
+        "created": "2013-09-07T12:25:00.0000000+00:00",
+        "center": {
+            "code": "LaRC",
+            "name": "Langley Research Center",
+            "id": "1e229fe5b7284965a153b0f761643383"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "This report describes research during the period June 15, 1997 to October 31, 2000. This grant yielded a low cast manufacturing of composite sandwich structures technology and characterization interfacial and subinterfacial cracks in foam core sandwich panels. The manufacturing technology is called the vacuum assisted resin transfer (VARTM). The VARTM is suitable for processing composite materials both at ambient and elevated temperatures and of unlimited component size. This technology has been successfully transferred to a small business fiber preform manufacturing company 3TEX located in Cary, North Carolina. The grant also supported one Ph.D, one M.S and a number of under graduate students, and nine publications and Presentations.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "publications": [
+            {
+                "submissionId": 20010021111,
+                "id": "e3fad77724f948b2822eac74922a1ad9",
+                "publicationDate": "2001-02-16T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "20010021111.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/20010021111/downloads/20010021111.pdf",
+                    "pdf": "/api/citations/20010021111/downloads/20010021111.pdf",
+                    "fulltext": "/api/citations/20010021111/downloads/20010021111.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "BOOK_CHAPTER": {
+        "_meta": {
+            "score": 18.773643
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "GOV_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "Geosciences (General)",
+            "Earth Resources and Remote Sensing"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+        "otherReportNumbers": [
+            "GSFC-E-DAA-TN48997"
+        ],
+        "title": "Our Globally Changing Climate",
+        "stiType": "BOOK_CHAPTER",
+        "distribution": "PUBLIC",
+        "submittedDate": "2018-02-20T12:43:11.0530000+00:00",
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Wuebbles, D. J."
+                    },
+                    "organization": {
+                        "name": "National Science Foundation",
+                        "location": "Arlington, VA, United States"
+                    }
+                },
+                "id": "da7ca07c710a4782b325839a52d6d72d"
+            },
+            {
+                "sequence": 1,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Easterling, D. R."
+                    },
+                    "organization": {
+                        "name": "National Oceanic and Atmospheric Administration",
+                        "location": "Highlands, NJ, United States"
+                    }
+                },
+                "id": "8a18aed7136c4bfdaaba356da52d3b93"
+            },
+            {
+                "sequence": 2,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Hayhoe, K."
+                    },
+                    "organization": {
+                        "name": "Texas Tech Univ.",
+                        "location": "Lubbock, TX, United States"
+                    }
+                },
+                "id": "030817c37b2b46fbbacc16c2a8dd0c01"
+            },
+            {
+                "sequence": 3,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Knutson, T."
+                    },
+                    "organization": {
+                        "name": "National Oceanic and Atmospheric Administration",
+                        "location": "Highlands, NJ, United States"
+                    }
+                },
+                "id": "4ed61709cb2748f4b6d5de2be20d45d4"
+            },
+            {
+                "sequence": 4,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Kopp, R. E."
+                    },
+                    "organization": {
+                        "name": "Rutgers Univ.",
+                        "location": "New Brunswick, NJ, United States"
+                    }
+                },
+                "id": "ff73fcb7917c443187b3682ece975b55"
+            },
+            {
+                "sequence": 5,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Kossin, J. P."
+                    },
+                    "organization": {
+                        "name": "National Oceanic and Atmospheric Administration",
+                        "location": "Highlands, NJ, United States"
+                    }
+                },
+                "id": "f65008e0a6b84a5ebad0cedfe6c7947b"
+            },
+            {
+                "sequence": 6,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Kunkel, K. E."
+                    },
+                    "organization": {
+                        "name": "North Carolina State Univ.",
+                        "location": "Raleigh, NC, United States"
+                    }
+                },
+                "id": "ed446f24586e4dfba6dd66ea5e7465c5"
+            },
+            {
+                "sequence": 7,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "LeGrande, A. N."
+                    },
+                    "organization": {
+                        "name": "NASA Goddard Inst. for Space Studies",
+                        "location": "New York, NY, United States"
+                    }
+                },
+                "id": "e35ffb0e97c24207aae23dfe21f8bff6"
+            },
+            {
+                "sequence": 8,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Mears, C."
+                    },
+                    "organization": {
+                        "name": "Remote Sensing Systems, Inc.",
+                        "location": "Santa Rosa, CA, United States"
+                    }
+                },
+                "id": "cc6adf163bb84bfa8664d435634c42d2"
+            },
+            {
+                "sequence": 9,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Sweet, W. V."
+                    },
+                    "organization": {
+                        "name": "National Oceanic and Atmospheric Administration",
+                        "location": "Highlands, NJ, United States"
+                    }
+                },
+                "id": "29886685d05e4e85b3a1c030fee85fac"
+            },
+            {
+                "sequence": 10,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Taylor, P. C."
+                    },
+                    "organization": {
+                        "name": "NASA Langley Research Center",
+                        "location": "Hampton, VA, United States"
+                    }
+                },
+                "id": "c617b2e87635479f8b93dd14bf0b7103"
+            },
+            {
+                "sequence": 11,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Vose, R. S."
+                    },
+                    "organization": {
+                        "name": "National Oceanic and Atmospheric Administration",
+                        "location": "Highlands, NJ, United States"
+                    }
+                },
+                "id": "74bc03390ce143a18b8f07ccdbe625c4"
+            },
+            {
+                "sequence": 12,
+                "submissionId": 20180001311,
+                "meta": {
+                    "author": {
+                        "name": "Wehner, M. F."
+                    },
+                    "organization": {
+                        "name": "California Univ., Lawrence Berkeley National Lab.",
+                        "location": "Berkeley, CA, United States"
+                    }
+                },
+                "id": "fd056cf8f30245c9a66ea792311ab24e"
+            }
+        ],
+        "stiTypeDetails": "Book Chapter",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "id": 20180001311,
+        "sourceIdentifiers": [
+            {
+                "number": "doi:10.7930/J08S4N35",
+                "type": "DOI"
+            }
+        ],
+        "created": "2018-02-20T12:43:11.0530000+00:00",
+        "center": {
+            "code": "GSFC",
+            "name": "Goddard Space Flight Center",
+            "id": "973fae00c3584b9fb4c762ae9870d0f6"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "Since the Third U.S. National Climate Assessment (NCA3) was published in May 2014, new observations along multiple lines of evidence have strengthened the conclusion that Earth's climate is changing at a pace and in a pattern not explainable by natural influences. While this report focuses especially on observed and projected future changes for the United States, it is important to understand those changes in the global context (this chapter). The world has warmed over the last 150 years, especially over the last six decades, and that warming has triggered many other changes to Earth's climate. Evidence for a changing climate abounds, from the top of the atmosphere to the depths of the oceans. Thousands of studies conducted by tens of thousands of scientists around the world have documented changes in surface, atmospheric, and oceanic temperatures; melting glaciers; disappearing snow cover; shrinking sea ice; rising sea level; and an increase in atmospheric water vapor. Rainfall patterns and storms are changing, and the occurrence of droughts is shifting.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "publications": [
+            {
+                "volume": "1",
+                "submissionId": 20180001311,
+                "publisher": "U.S. Global Change Research Program",
+                "id": "acc80171f23d45658b88c71a93921fb6",
+                "publicationName": "Climate Science Special Report: Fourth National Climate Assessment (NCA4)",
+                "publicationDate": "2017-01-01T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "20180001311.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/20180001311/downloads/20180001311.pdf",
+                    "pdf": "/api/citations/20180001311/downloads/20180001311.pdf",
+                    "fulltext": "/api/citations/20180001311/downloads/20180001311.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "PRESENTATION": {
+        "_meta": {
+            "score": 253.49582
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "Composite Materials",
+            "Aircraft Design, Testing and Performance"
+        ],
+        "keywords": [
+            "creep durability",
+            "SiC/SiC composites"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+        "otherReportNumbers": [
+            "GRC-E-DAA-TN47880"
+        ],
+        "fundingNumbers": [
+            {
+                "number": "NNC13BA10B",
+                "type": "CONTRACT_GRANT"
+            },
+            {
+                "number": "WBS 109492.02.03.02.02.01",
+                "type": "WBS"
+            }
+        ],
+        "title": "Creep and Cyclic Fatigue Durability of 3D Woven SiC/SiC Composites with (CVI+PIP) Hybrid Matrix",
+        "stiType": "PRESENTATION",
+        "distribution": "PUBLIC",
+        "submittedDate": "2018-06-06T10:54:14.1300000+00:00",
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 20180003480,
+                "meta": {
+                    "author": {
+                        "name": "Bhatt, R. T."
+                    },
+                    "organization": {
+                        "name": "Ohio Aerospace Inst.",
+                        "location": "Cleveland, OH, United States"
+                    }
+                },
+                "id": "301c7683304045e6a8d9cb4c9938c45c"
+            }
+        ],
+        "stiTypeDetails": "Presentation",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "id": 20180003480,
+        "created": "2018-06-06T10:54:14.1300000+00:00",
+        "center": {
+            "code": "GRC",
+            "name": "Glenn Research Center",
+            "id": "19eeb25fa404421d9eaa5f876e853e3c"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "SiC-SiC composites are potential candidate materials for turbine components such as combustor liners, nozzle vanes and blades because of their low density, high temperature capability, and tailorable mechanical properties. The first generation of SiC-SiC composites fabricated by melt infiltration are being introduced in current engines. These materials are limited to 1315 degrees Centigrade applications because of the presence of residual silicon in the SiC matrix. Currently there is an increasing interest in developing SiC-SiC composites without silicon for structural aerospace applications above 1315 degrees Centigrade. The developmental 3D woven SiC-SiC composites with Chemical Vapor Infiltration plus Polymer Impregnation and Pyrolysis (CVI+PIP) hybrid matrix show potential for 1482 degrees Centigrade applications. In this study 3D woven SiC-SiC composite specimens were creep tested at 1482  degrees Centigrade at different stress levels until failure or for 1000 hours without failure. The failed specimens were analyzed for under a scanning electron microscope to assess the damage mechanisms. The creep data of 3D woven SiC-SiC composites with (CVI+PIP) hybrid matrix were compared with those of full CVI SiC-SiC composites and sintered SiC from the literature. The potential benefits limitations and durability of 3D woven SiC-SiC composites for turbine applications will be discussed.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "meetings": [
+            {
+                "submissionId": 20180003480,
+                "endDate": "2017-11-09T00:00:00.0000000+00:00",
+                "sponsors": [
+                    {
+                        "meta": {
+                            "organization": {
+                                "name": "Engineering Conferences International, Inc.",
+                                "location": "New York, NY, United States"
+                            }
+                        },
+                        "meetingId": "68cb05127e904562baa48d17197a6195",
+                        "id": "93b8ecd897ab4757af49907d9d3855ae"
+                    }
+                ],
+                "name": "Advanced Ceramic Matrix Composites: Science and Technology of Materials, Design, Applications, Performance and Integration (An Engineering Conferences International (ECI) Conference)",
+                "location": "Sante Fe, NM",
+                "id": "68cb05127e904562baa48d17197a6195",
+                "startDate": "2017-11-05T00:00:00.0000000+00:00"
+            }
+        ],
+        "publications": [
+            {
+                "submissionId": 20180003480,
+                "id": "77464fca9fbd48f9aca384163b979cc5",
+                "publicationDate": "2017-11-05T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "20180003480.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/20180003480/downloads/20180003480.pdf",
+                    "pdf": "/api/citations/20180003480/downloads/20180003480.pdf",
+                    "fulltext": "/api/citations/20180003480/downloads/20180003480.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "CONTRACTOR_REPORT": {
+        "_meta": {
+            "score": 388.32794
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "Composite Materials"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "2019-06-26T00:00:00.0000000+00:00",
+        "otherReportNumbers": [
+            "NASA-CR-198286",
+            "NAS 1.26:198286"
+        ],
+        "fundingNumbers": [
+            {
+                "number": "RTOP 505-63-50-04",
+                "type": "PROJECT"
+            },
+            {
+                "number": "NAS1-19000",
+                "type": "CONTRACT_GRANT"
+            }
+        ],
+        "title": "Strain Gage Selection Criteria for Textile Composite Materials",
+        "stiType": "CONTRACTOR_REPORT",
+        "distribution": "PUBLIC",
+        "submittedDate": "2013-09-06T23:39:00.0000000+00:00",
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 19960015567,
+                "meta": {
+                    "author": {
+                        "name": "Masters, John E."
+                    },
+                    "organization": {
+                        "name": "Lockheed Martin Engineering and Sciences Co.",
+                        "location": "Hampton, VA United States"
+                    }
+                },
+                "id": "9f5c568284b14f98b2b907029fd8762e"
+            }
+        ],
+        "stiTypeDetails": "Contractor Report (CR)",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "modified": "2013-08-29T00:00:00.0000000+00:00",
+        "id": 19960015567,
+        "created": "2013-09-06T23:39:00.0000000+00:00",
+        "center": {
+            "code": "LaRC",
+            "name": "Langley Research Center",
+            "id": "1e229fe5b7284965a153b0f761643383"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "This report will provide a review of efforts to establish a set of strain gage selection guidelines for textile reinforced composite materials. A variety of strain gages were evaluated in the study to determine the sensitivity of strain measurements to the size of the strain gage. The strain gages were chosen to provide a range of gage lengths and widths. The gage aspect ratio (the length-to-width ratio) was also varied. The gages were tested on a diverse collection of textile composite laminates. Test specimens featured eleven different textile architectures: four 2-D triaxial braids, six 3-D weaves, and one stitched uniweave architecture. All specimens were loaded in uniaxial tension. The materials' moduli were measured in both the longitudinal (parallel to the O deg. yarns) and the transverse (perpendicular to the O deg. yarns) directions. The results of these measurements were analyzed to establish performance levels for extensometers and strain gages on textile composite materials. Conclusions are expressed in a summary that discusses instrumentation practices and defines strain gage selection criteria.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "publications": [
+            {
+                "submissionId": 19960015567,
+                "id": "fe758b69fe4c415b8c6f39706208c50a",
+                "publicationDate": "1996-02-01T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "19960015567.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/19960015567/downloads/19960015567.pdf",
+                    "pdf": "/api/citations/19960015567/downloads/19960015567.pdf",
+                    "fulltext": "/api/citations/19960015567/downloads/19960015567.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "REPRINT": {
+        "_meta": {
+            "score": 91.13152
+        },
+        "keywords": [
+            "materials chemistry",
+            "ceramics and composites"
+        ],
+        "created": "2022-09-30T04:19:10.211260+00:00",
+        "distributionDate": "2016-05-23T00:00:00",
+        "fundingNumbers": [],
+        "title": "Effects of Preform Shear on Tensile Properties of a Woven C/SiC Composite",
+        "distribution": "PUBLIC",
+        "stiType": "REPRINT",
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "meta": {
+                    "author": {
+                        "name": "John H. Shaw"
+                    },
+                    "organization": {
+                        "name": "Department of Materials University of California Santa Barbara California 93106"
+                    }
+                }
+            },
+            {
+                "sequence": 1,
+                "meta": {
+                    "author": {
+                        "name": "Michael N. Rossol"
+                    },
+                    "organization": {
+                        "name": "Department of Materials University of California Santa Barbara California 93106"
+                    }
+                }
+            },
+            {
+                "sequence": 2,
+                "meta": {
+                    "author": {
+                        "name": "David B. Marshall"
+                    },
+                    "organization": {
+                        "name": "Teledyne Scientific Company Thousand Oaks California 91360"
+                    }
+                }
+            },
+            {
+                "sequence": 3,
+                "meta": {
+                    "author": {
+                        "name": "Frank W. Zok"
+                    },
+                    "organization": {
+                        "name": "Department of Materials University of California Santa Barbara California 93106"
+                    }
+                }
+            }
+        ],
+        "stiTypeDetails": "Version of Record",
+        "modified": "2022-08-02T00:00:00",
+        "id": "10698427473358",
+        "sourceIdentifiers": [
+            {
+                "number": "http://dx.doi.org/10.1111/jace.14280"
+            }
+        ],
+        "publications": [
+            {
+                "volume": "99",
+                "pages": "3081-3089",
+                "issue": "9",
+                "issn": "0002-7820",
+                "publisher": "Wiley",
+                "eissn": "1551-2916",
+                "publicationName": "Journal of the American Ceramic Society",
+                "publicationDate": "2016-05-23T00:00:00",
+                "issuePublicationDate": "2016-09-01T00:00:00",
+                "doi": "10.1111/jace.14280"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [],
+        "downloadsAvailable": false,
+        "index": "chorus-2022-09-30-04-32"
+    },
+    "OTHER": {
+        "_meta": {
+            "score": 333.68973
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "patent": "US-Patent-9,664,053",
+            "patentApplication": "US-Patent-Appl-SN-14/179,289",
+            "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "Composite Materials"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "created": "2017-06-02T07:24:25.0570000+00:00",
+        "distributionDate": "2019-07-11T00:00:00.0000000+00:00",
+        "center": {
+            "code": "GRC",
+            "name": "Glenn Research Center",
+            "id": "19eeb25fa404421d9eaa5f876e853e3c"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "fundingNumbers": [
+            {
+                "number": "FA8650-07-C-5251",
+                "type": "CONTRACT_GRANT"
+            },
+            {
+                "number": "NNC08CA45C",
+                "type": "CONTRACT_GRANT"
+            }
+        ],
+        "abstract": "An integral textile structure for 3-D CMC turbine airfoils includes top and bottom walls made from an angle-interlock weave, each of the walls comprising warp and weft fiber tows. The top and bottom walls are merged on a first side parallel to the warp fiber tows into a single wall along a portion of their widths, with the weft fiber tows making up the single wall interlocked through the wall's thickness such that delamination of the wall is inhibited. The single wall suitably forms the trailing edge of an airfoil; the top and bottom walls are preferably joined along a second side opposite the first side and parallel to the radial fiber tows by a continuously curved section in which the weave structure remains continuous with the weave structure in the top and bottom walls, the continuously curved section being the leading edge of the airfoil. ",
+        "title": "Integral Textile Structure for 3-D CMC Turbine Airfoils",
+        "stiType": "OTHER",
+        "distribution": "PUBLIC",
+        "submittedDate": "2017-06-02T07:24:25.0570000+00:00",
+        "isLessonsLearned": false,
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 20170004949,
+                "meta": {
+                    "author": {
+                        "name": "Marshall, David B."
+                    },
+                    "organization": {}
+                },
+                "id": "7fde795ba56043e3a29a26b5b0f91521"
+            },
+            {
+                "sequence": 1,
+                "submissionId": 20170004949,
+                "meta": {
+                    "author": {
+                        "name": "Cox, Brian N."
+                    },
+                    "organization": {}
+                },
+                "id": "8863396210fb4444956145336e6a6bec"
+            },
+            {
+                "sequence": 2,
+                "submissionId": 20170004949,
+                "meta": {
+                    "author": {
+                        "name": "Sudre, Olivier H."
+                    },
+                    "organization": {}
+                },
+                "id": "6c7f152b3e6e4db28df84480ee44b708"
+            }
+        ],
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "stiTypeDetails": "Other - Patent",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "id": 20170004949,
+        "publications": [
+            {
+                "submissionId": 20170004949,
+                "id": "f160deb4d65a4072aebcf202213ea914",
+                "publicationDate": "2017-05-30T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "20170004949.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/20170004949/downloads/20170004949.pdf",
+                    "pdf": "/api/citations/20170004949/downloads/20170004949.pdf",
+                    "fulltext": "/api/citations/20170004949/downloads/20170004949.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "CONFERENCE_PAPER": {
+        "_meta": {
+            "score": 440.6023
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "GOV_PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "COMPOSITE MATERIALS"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "created": "2013-09-06T18:51:00.0000000+00:00",
+        "distributionDate": "2013-08-29T00:00:00.0000000+00:00",
+        "center": {
+            "code": "CDMS",
+            "name": "Legacy CDMS",
+            "id": "092d6e0881874968859b972d39a888dc"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "Three-dimensional (3D) woven preforms are currently being considered for use as primary structural components. Lack of technology to properly manufacture, characterize and predict mechanical properties, and predict damage mechanisms leading to failure are problems facing designers of textile composite materials. Two material systems with identical specifications but different manufacturing approaches are investigated. One manufacturing approach resulted in an irregular (nonuniform) preform geometry. The other approach yielded the expected preform geometry (uniform). The objectives are to compare the mechanical properties of the uniform and nonuniform angle interlock 3D weave constructions. The effect of adding layers of laminated tape to the outer surfaces of the textile preform is also examined. Damage mechanisms are investigated and test methods are evaluated.",
+        "title": "Effect of tow alignment on the mechanical performance of 3D woven textile composites",
+        "stiType": "CONFERENCE_PAPER",
+        "distribution": "PUBLIC",
+        "submittedDate": "2013-09-06T18:51:00.0000000+00:00",
+        "isLessonsLearned": false,
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 19940012378,
+                "meta": {
+                    "author": {
+                        "name": "Norman, Timothy L."
+                    },
+                    "organization": {
+                        "name": "West Virginia Univ.",
+                        "location": "Morgantown, VA, United States"
+                    }
+                },
+                "id": "ed6f9e1852df418aa31b30342841548d"
+            },
+            {
+                "sequence": 1,
+                "submissionId": 19940012378,
+                "meta": {
+                    "author": {
+                        "name": "Allison, Patti"
+                    },
+                    "organization": {
+                        "name": "General Electric Co.",
+                        "location": "Cincinnati, OH., United States"
+                    }
+                },
+                "id": "8983aed610814c51b1534b6ba3ecbf64"
+            },
+            {
+                "sequence": 2,
+                "submissionId": 19940012378,
+                "meta": {
+                    "author": {
+                        "name": "Baldwin, Jack W."
+                    },
+                    "organization": {
+                        "name": "General Electric Co.",
+                        "location": "Cincinnati, OH., United States"
+                    }
+                },
+                "id": "416f85c60d5243e6badf0fae1a5d45d0"
+            },
+            {
+                "sequence": 3,
+                "submissionId": 19940012378,
+                "meta": {
+                    "author": {
+                        "name": "Gracias, Brian K."
+                    },
+                    "organization": {
+                        "name": "General Electric Co.",
+                        "location": "Cincinnati, OH., United States"
+                    }
+                },
+                "id": "3f4f06191e2140e88bfddacf18398427"
+            },
+            {
+                "sequence": 4,
+                "submissionId": 19940012378,
+                "meta": {
+                    "author": {
+                        "name": "Seesdorf, Dave"
+                    },
+                    "organization": {
+                        "name": "Westinghouse Electric Corp.",
+                        "location": "Pittsburgh, PA., United States"
+                    }
+                },
+                "id": "a7d493aaca4a493a89f84e660b2b2df6"
+            }
+        ],
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "stiTypeDetails": "Conference Paper",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "modified": "2013-08-29T00:00:00.0000000+00:00",
+        "id": 19940012378,
+        "publications": [
+            {
+                "submissionId": 19940012378,
+                "id": "e7a225db6bba41e78bdbc7bcaec77a0d",
+                "publicationName": "NASA. Langley Research Center, FIBER-TEX 1992: The Sixth Conference on Advanced Engineering Fibers and Textile Structures for Composites",
+                "publicationDate": "1993-08-01T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [
+            {
+                "disseminated": "DOCUMENT_AND_METADATA",
+                "id": 19940012122,
+                "type": "ANALYTIC_PRIMARY",
+                "title": "Summaries of the Third Annual JPL Airborne Geoscience Workshop. Volume 2: TIMS Workshop",
+                "stiType": "CONFERENCE_PROCEEDINGS",
+                "distribution": "PUBLIC",
+                "status": "CURATED"
+            }
+        ],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "19940012378.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/19940012378/downloads/19940012378.pdf",
+                    "pdf": "/api/citations/19940012378/downloads/19940012378.pdf",
+                    "fulltext": "/api/citations/19940012378/downloads/19940012378.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    },
+    "PREPRINT": {
+        "_meta": {
+            "score": 287.09106
+        },
+        "copyright": {
+            "licenseType": "NO",
+            "determinationType": "PUBLIC_USE_PERMITTED",
+            "thirdPartyContentCondition": "NOT_SET"
+        },
+        "subjectCategories": [
+            "Structural Mechanics"
+        ],
+        "exportControl": {
+            "isExportControl": "NO",
+            "ear": "NO",
+            "itar": "NO"
+        },
+        "distributionDate": "2019-07-12T00:00:00.0000000+00:00",
+        "title": "Damage Accumulation in SiC/SiC Composites with 3D Architectures",
+        "stiType": "PREPRINT",
+        "distribution": "PUBLIC",
+        "submittedDate": "2013-08-21T04:16:00.0000000+00:00",
+        "authorAffiliations": [
+            {
+                "sequence": 0,
+                "submissionId": 20030056688,
+                "meta": {
+                    "author": {
+                        "name": "Morscher, Gregory N."
+                    },
+                    "organization": {
+                        "name": "Ohio Aerospace Inst.",
+                        "location": "OH, United States"
+                    }
+                },
+                "id": "b382c614a516401c86f49226134488aa"
+            },
+            {
+                "sequence": 1,
+                "submissionId": 20030056688,
+                "meta": {
+                    "author": {
+                        "name": "Yun, Hee-Mann"
+                    },
+                    "organization": {
+                        "name": "Cleveland State Univ.",
+                        "location": "Cleveland, OH, United States"
+                    }
+                },
+                "id": "898c9e11d76c4f68b2a11cfd0b956c37"
+            },
+            {
+                "sequence": 2,
+                "submissionId": 20030056688,
+                "meta": {
+                    "author": {
+                        "name": "DiCarlo, James A."
+                    },
+                    "organization": {
+                        "name": "NASA Glenn Research Center",
+                        "location": "Cleveland, OH, United States"
+                    }
+                },
+                "id": "35cf144d079d422880cae5b823a169d3"
+            }
+        ],
+        "stiTypeDetails": "Preprint (Draft being sent to journal)",
+        "technicalReviewType": "TECHNICAL_REVIEW_TYPE_NONE",
+        "modified": "2013-04-09T00:00:00.0000000+00:00",
+        "id": 20030056688,
+        "created": "2013-08-21T04:16:00.0000000+00:00",
+        "center": {
+            "code": "GRC",
+            "name": "Glenn Research Center",
+            "id": "19eeb25fa404421d9eaa5f876e853e3c"
+        },
+        "onlyAbstract": false,
+        "sensitiveInformation": 2,
+        "abstract": "The formation and propagation of multiple matrix cracks in relatively dense ceramic matrix composites when subjected to increasing tensile stress is necessary for high strength and tough composites. However, the occurrence of matrix cracks at low stresses may limit the usefulness of some non-oxide composite systems when subjected to oxidizing environments for long times at stresses sufficient to cause matrix cracking. For SiC fiber-reinforced composites with two-dimensional woven architectures and chemically vapor infiltrated (CVI) SiC matrix and melt-infiltrated (MI) Si/SiC matrix composites, the matrix cracking behavior has been fairly well characterized for different fiber-types and woven architectures. It was found that the occurrence, degree, and growth of matrix cracks depends on the material properties of the composite constituents as well as other physical properties of the composite or architecture, e.g., matrix porosity and size of the fiber bundle. In this study, matrix cracking in SiC fiber reinforced, melt-infiltrated SiC composites with a 3D orthogonal architecture was determined for specimens tested in tension at room temperature. Acoustic emission (AE) was used to monitor the matrix cracking activity, which was later confirmed by microscopic examination of specimens that had failed. The determination of the exact location of AE demonstrated that initial cracking occurred in the matrix rich regions when a large z-direction fiber bundle was used. For specimens with large z-direction fiber tows, the earliest matrix cracking could occur at half the stress for standard 2D woven composites with similar constituents. Damage accumulation in 3D architecture composites will be compared to damage accumulation in 2D architecture composites and discussed with respect to modeling composite stress-strain behavior and use of these composites at elevated temperatures.",
+        "isLessonsLearned": false,
+        "disseminated": "DOCUMENT_AND_METADATA",
+        "meetings": [
+            {
+                "country": "United States",
+                "submissionId": 20030056688,
+                "endDate": "2003-01-31T00:00:00.0000000+00:00",
+                "sponsors": [
+                    {
+                        "meta": {
+                            "organization": {
+                                "name": "American Ceramic Society",
+                                "location": "United States"
+                            }
+                        },
+                        "meetingId": "a553ee4062d347a79220257e2dbf8350",
+                        "id": "5837ffe25d5a4b21ba26e24f88bbeb50"
+                    }
+                ],
+                "name": "27th Annual Cocoa Beach Conference and Exposition",
+                "location": "Cocoa Beach, FL",
+                "id": "a553ee4062d347a79220257e2dbf8350",
+                "startDate": "2003-01-26T00:00:00.0000000+00:00"
+            }
+        ],
+        "publications": [
+            {
+                "submissionId": 20030056688,
+                "id": "fdeebd245305461184e9dcc1ee8ee9c4",
+                "publicationDate": "2003-01-01T00:00:00.0000000+00:00"
+            }
+        ],
+        "status": "CURATED",
+        "related": [],
+        "downloads": [
+            {
+                "draft": false,
+                "mimetype": "application/pdf",
+                "name": "20030056688.pdf",
+                "type": "STI",
+                "links": {
+                    "original": "/api/citations/20030056688/downloads/20030056688.pdf",
+                    "pdf": "/api/citations/20030056688/downloads/20030056688.pdf",
+                    "fulltext": "/api/citations/20030056688/downloads/20030056688.txt"
+                }
+            }
+        ],
+        "downloadsAvailable": true,
+        "index": "submissions-2022-09-30-06-07"
+    }
+}
