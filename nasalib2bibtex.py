@@ -5,33 +5,13 @@ import os
 
 def get_results(query):
 
-    url_search = r"https://ntrs.nasa.gov/api/citations/search"
-    
-    max_data_per_page = 100
-
     counter_for_recieved_results = 0
 
     results = []
 
     while True:
 
-        data = {
-            "page": {
-            "size": max_data_per_page,
-            "from": counter_for_recieved_results
-            },
-            "q": query,
-        }
-        r = requests.post(url_search, json=data)
-
-        data = r.json()
-
-        # print some stats
-        log.debug(str(data.keys()))
-        log.debug(data['stats'])
-
-        # print the number of elements in data['results']
-        log.debug("num of results in response: " + str(len(data['results'])))
+        data = do_request(query, counter_for_recieved_results, max_results=100)
 
         # add the number of elements in data['results'] to the counter
         counter_for_recieved_results += len(data['results'])
@@ -56,6 +36,38 @@ def get_results(query):
     log.info("total number of results: " + str(len(results)))
 
     return results
+
+
+def do_request(query, start, max_results=1):
+
+    url_search = r"https://ntrs.nasa.gov/api/citations/search"
+
+    data = {
+        "page": {
+        "size": max_results,
+        "from": start
+        },
+        "q": query,
+    }
+    r = requests.post(url_search, json=data)
+
+    data = r.json()
+
+    # print some stats
+    log.debug(str(data.keys()))
+    log.debug(data['stats'])
+
+    # print the number of elements in data['results']
+    log.debug("num of results in response: " + str(len(data['results'])))
+
+    return data
+
+
+def get_result_count(query):
+
+    data = do_request(query, 0)
+
+    return data['stats']['total']
 
 
 def authors(result):
@@ -310,6 +322,12 @@ if __name__ == "__main__":
     # add logging level
     parser.add_argument('-v', '--verbose', action='store_true', help='increase output verbosity')
 
+    # add argument to just print the resultcount
+    parser.add_argument('-c', '--count', action='store_true', help='print the number of results')
+
+    # add argument to confirm large query results
+    parser.add_argument('-y', '--yes', action='store_true', help='confirm large query results')
+
     args = parser.parse_args()
 
     if args.verbose:
@@ -319,6 +337,26 @@ if __name__ == "__main__":
     log.info("Starting nasalib2bib")
     log.info("Query: " + args.query)
 
-    main(args.query)
+    log.info("Printing result count")
+    num_of_results = get_result_count(args.query)
+    log.info("Result count: " + str(num_of_results))
+    print("Result count: " + str(num_of_results))
+
+    if not args.count:
+        if num_of_results < 1000:
+            main(args.query)
+        elif args.yes:
+            main(args.query)
+        else:
+            print("The query result count is larger than 1000. Do you want to continue? (y/n)")
+            answer = input()
+            if answer == 'y':
+                main(args.query)
+            else:
+                print("Aborting by user")
+                log.info("Aborting by user")
+                exit()
+
+        main(args.query)
 
     log.info("Finished nasalib2bib")
