@@ -44,8 +44,8 @@ def do_request(query, start, max_results=1):
 
     data = {
         "page": {
-        "size": max_results,
-        "from": start
+            "size": max_results,
+            "from": start
         },
         "q": query,
     }
@@ -77,15 +77,17 @@ def authors(result):
         # if key organization exists and is not empty, add it to the author string
         if 'organization' in author['meta'] and author['meta']['organization'] != {}:
             author_str += " ("
-            
+
             try:
-                author_str += author['meta']['organization']['name'] 
-            except:
+                author_str += author['meta']['organization']['name']
+            except BaseException as e:
+                log.error(e)
                 pass
-            
+
             try:
                 author_str += ", " + author['meta']['organization']['location']
-            except:
+            except BaseException as e:
+                log.error(e)
                 pass
             author_str += ")"
 
@@ -94,8 +96,8 @@ def authors(result):
     # convert list to string with comma as separator and return
     return '; '.join(authors_list)
 
-def date_string(result):
 
+def date_string(result):
 
     # get the first publication date if the key 'publications' and 'publicationDate' exists
     if 'publications' in result:
@@ -107,18 +109,20 @@ def date_string(result):
     # else get the "submittedDate"
     else:
         date = result['submittedDate']
-    
+
     return date
+
 
 def year(result):
     date = date_string(result)
-    
+
     year = date.split('-')[0]
     return year
 
+
 def month(result):
     date = date_string(result)
-    
+
     month = date.split('-')[1]
     if month == '01':
         return 'January'
@@ -155,13 +159,14 @@ def categories(result):
     # convert list to string with comma as separator and return
     return '; '.join(categories_list)
 
+
 def keywords(result):
 
     keywords_list = result['keywords']
 
     # convert list to string with comma as separator and return
     return '; '.join(keywords_list)
-        
+
 
 def abstract(result):
     abstract_str = result['abstract']
@@ -176,8 +181,9 @@ def abstract(result):
     # replace unicode characters
     for unicode_char in unicode_dict:
         abstract_str = abstract_str.replace(unicode_char, unicode_dict[unicode_char])
-    
+
     return abstract_str
+
 
 def reportNumber(result):
     reportNumber_list = result['otherReportNumbers']
@@ -259,7 +265,7 @@ def write_results(results):
                 elif 'publications' in result:
                     if 'publicationName' in result['publications'][0]:
                         outfile.write('\tbooktitle = "' + result['publications'][0]['publicationName'] + '",\n')
-            
+
             # write the publisher of the result to the file if the key exists
             if 'publications' in result:
                 if 'publisher' in result['publications'][0]:
@@ -270,7 +276,7 @@ def write_results(results):
             elif 'meetings' in result:
                 if 'sponsor' in result['meetings'][0]:
                     outfile.write('\tpublisher = "' + result['meetings'][0]['sponsors'][0]['meta']['organization']['name'] + '",\n')
-                
+
             # write the address of the result to the file if the key exists
             if 'meetings' in result:
                 if 'location' in result['meetings'][0]:
@@ -280,7 +286,6 @@ def write_results(results):
             if bibtex_type == 'techreport':
                 outfile.write('\tnumber = "' + reportNumber(result) + '",\n')
 
-            
             # strip the last comma and newline from the file
             outfile.seek(outfile.tell() - 2, os.SEEK_SET)
             outfile.truncate()
@@ -297,6 +302,7 @@ def main(query):
     # write the results to a bibtec file
     write_results(results)
 
+
 if __name__ == "__main__":
 
     import logging
@@ -305,20 +311,19 @@ if __name__ == "__main__":
 
     # Create and configure logger
     LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
-    logging.basicConfig(filename = "console.log",
-                        level = logging.INFO,
-                        format = LOG_FORMAT,
+    logging.basicConfig(filename="console.log",
+                        level=logging.INFO,
+                        format=LOG_FORMAT,
                         # filemode = 'w',       # 'w' Override logfile every time, 'a' append the messages
-                        filemode = 'a')         
+                        filemode='a')
     log = logging.getLogger()
 
-    search_query = '(3d|"3 d"|"3-d"|three*dimension|3*dimension)+("woven"|weav*)+(“textile”|fib*|”composite”|”component|”plastic”)+(torsi*|bend*|mechanic*|compres*|tensi*|flex*|impact)+( stress|load*|force*|strain|propert*|failure|fatique|damage)+(“z-“|orthogonal|angle|interlock)-(nonwoven|print*|*bio*|therm*|concrete)'
-
     import argparse
+
     # cml tool nasalib2bib
     parser = argparse.ArgumentParser(description='Requests literature from a query send to NASAs NTRS database and exports the results to a bibtex file.')
     parser.add_argument('query', help='The query to be used.')
-    
+
     # add logging level
     parser.add_argument('-v', '--verbose', action='store_true', help='increase output verbosity')
 
