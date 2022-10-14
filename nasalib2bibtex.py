@@ -207,7 +207,7 @@ def write_results(results):
     log.info("Writing results to file: " + output_filename)
     with open(output_filename, 'w') as outfile:
         for result in results:
-            # print ID and title of the result
+            # log ID and title of the result
             log.debug("ID: " + str(result['id']) + " - Title: " + result['title'])
 
             # the bibtex type is the stiType of the result if it is in stiTypes_assigned
@@ -308,8 +308,6 @@ def main(args):
 if __name__ == "__main__":
 
     import logging
-
-    # dir(logging)
 
     # Create and configure logger
     LOG_FORMAT = "%(levelname)s %(asctime)s - %(message)s"
