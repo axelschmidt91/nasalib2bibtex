@@ -80,14 +80,14 @@ def authors(result):
 
             try:
                 author_str += author['meta']['organization']['name']
-            except BaseException as e:
-                log.error(e)
+            except KeyError as e:
+                log.debug(f"{e=} - {type(e)=} - {str(e)}")
                 pass
 
             try:
                 author_str += ", " + author['meta']['organization']['location']
-            except BaseException as e:
-                log.error(e)
+            except KeyError as e:
+                log.debug(f"{e=} - {type(e)=} - {str(e)}")
                 pass
             author_str += ")"
 
