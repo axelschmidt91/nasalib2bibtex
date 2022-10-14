@@ -11,6 +11,11 @@ python nasalib2bibtex.py -h
 
 The required arguments is the query to be searched for. If there are any spaces in the query the string needs to be set between abostrophes  `'`. For example: `'NACA foil'` 
 
+The bibtex entries will be written to `data.bib`.
+
+## Logging
+The logfile `console.log` will be written.
+
 ## Sources
 
 NASA NTRS Search
