@@ -3,7 +3,7 @@ import json
 import os
 
 
-def get_results(query):
+def get_results(query, data_output):
 
     counter_for_recieved_results = 0
 
@@ -26,11 +26,13 @@ def get_results(query):
         if counter_for_recieved_results == data['stats']['total']:
             break
 
-    # save results to json file with tab indentation
-    data_filename = "data.json"
-    log.info("Saving API results to file: " + data_filename)
-    with open(data_filename, 'w') as outfile:
-        json.dump(results, outfile, indent=4)
+    # Save the results to a json file if data_output is True
+    if data_output:
+        # save results to json file with tab indentation
+        data_filename = "data.json"
+        log.info("Saving API results to file: " + data_filename)
+        with open(data_filename, 'w') as outfile:
+            json.dump(results, outfile, indent=4)
 
     # print the number of results
     log.info("total number of results: " + str(len(results)))
@@ -294,10 +296,10 @@ def write_results(results):
             outfile.write('\n}\n\n')
 
 
-def main(query):
+def main(args):
     # get the results from the API
     log.info("Getting results from API")
-    results = get_results(query)
+    results = get_results(query=args.query, data_output=args.data)
 
     # write the results to a bibtec file
     write_results(results)
@@ -333,6 +335,9 @@ if __name__ == "__main__":
     # add argument to confirm large query results
     parser.add_argument('-y', '--yes', action='store_true', help='confirm large query results')
 
+    # add argument to turn the output of the data.json file on
+    parser.add_argument('-d', '--data', action='store_true', help='turn the output of the data.json file on')
+
     args = parser.parse_args()
 
     if args.verbose:
@@ -349,14 +354,14 @@ if __name__ == "__main__":
 
     if not args.count:
         if num_of_results < 1000:
-            main(args.query)
+            main(args)
         elif args.yes:
-            main(args.query)
+            main(args)
         else:
             print("The query result count is larger than 1000. Do you want to continue? (y/n)")
             answer = input()
             if answer == 'y':
-                main(args.query)
+                main(args)
             else:
                 print("Aborting by user")
                 log.info("Aborting by user")
