@@ -362,6 +362,4 @@ if __name__ == "__main__":
                 log.info("Aborting by user")
                 exit()
 
-        main(args.query)
-
     log.info("Finished nasalib2bib")
