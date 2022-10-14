@@ -287,7 +287,7 @@ def write_results(results):
                 outfile.write('\tnumber = "' + reportNumber(result) + '",\n')
 
             # strip the last comma and newline from the file
-            outfile.seek(outfile.tell() - 2, os.SEEK_SET)
+            outfile.seek(outfile.tell() - 3, os.SEEK_SET)
             outfile.truncate()
 
             # write closing bracket to the file
