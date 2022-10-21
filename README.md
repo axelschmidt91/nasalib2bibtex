@@ -2,6 +2,15 @@
 
 This command line tool performs an API request on the given query at the NASA NTRS website https://ntrs.nasa.gov/search and saves the results as a bibtex file.
 
+## Installation
+
+_python_ is used for this tool.
+
+To install the relevant packages run:
+```
+pip install -r requirement.txt
+``` 
+
 ## Usage
 
 The converter help can be viewed by typing the following:
