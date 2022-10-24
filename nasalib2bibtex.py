@@ -83,13 +83,13 @@ def authors(result):
             try:
                 author_str += author['meta']['organization']['name']
             except KeyError as e:
-                log.debug(f"{e=} - {type(e)=} - {str(e)}")
+                log.debug(f"e={e} - type(e)={type(e)} - {str(e)}")
                 pass
 
             try:
                 author_str += ", " + author['meta']['organization']['location']
             except KeyError as e:
-                log.debug(f"{e=} - {type(e)=} - {str(e)}")
+                log.debug(f"e={e} - type(e)={type(e)} - {str(e)}")
                 pass
             author_str += ")"
 

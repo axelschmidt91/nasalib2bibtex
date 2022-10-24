@@ -5,7 +5,7 @@ block_cipher = None
 
 
 a = Analysis(['nasalib2bibtex.py'],
-             pathex=['D:\\OneDrive\\Projekte\\eigene\\Programmieren\\Python\\nasalib2bibtex'],
+             pathex=['.'],
              binaries=[],
              datas=[],
              hiddenimports=[],
