@@ -3,3 +3,5 @@ data.json
 .ideas/*
 __pycache__/*
 *.log
+build/*
+dist/*
