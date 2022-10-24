@@ -2,19 +2,19 @@
 
 This command line tool performs an API request on the given query at the NASA NTRS website https://ntrs.nasa.gov/search and saves the results as a bibtex file.
 
-## Installation
+## Installation for Python
 
 _python_ is used for this tool.
 
 To install the relevant packages run:
-```
+```sh
 pip install -r requirement.txt
 ``` 
 
 ## Usage
 
 The converter help can be viewed by typing the following:
-```
+```sh
 python nasalib2bibtex.py -h
 ```
 
@@ -24,6 +24,18 @@ The bibtex entries will be written to `data.bib`.
 
 ## Logging
 The logfile `console.log` will be written.
+
+## Standalone Usage
+
+For Windows download the corresponding release files and open a terminal/cml in the located folder and run:
+```sh
+nasalib2bibtex -h
+```
+For Linux download the corresponding release files and open a terminal in the located folder and run:
+```sh
+./nasalib2bibtex -h
+```
+
 
 ## Sources
 
